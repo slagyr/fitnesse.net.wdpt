@@ -1,0 +1,30 @@
+!c !3 If a user logs in while they are currently clocked in, then they are automatically clocked out. The hours worked is displayed.
+
+Add some users to the system.
+!|Users|
+|username|password|
+|wallace|cheese|
+|grommit|nopenguins|
+
+!|Pseudo time|
+|enter|time|9:00|
+
+Walace logs in at 9am. He is clocked in.
+!|Login Window|
+|enter|username|wallace|
+|enter|password|cheese|
+|press|Login|
+
+!|Pseudo time|
+|enter|time|17:00|
+
+Wallace logs in at 5pm. He is clocked out.  8 hours of works is displayed. 
+!|Login Window|
+|enter|username|wallace|
+|enter|password|cheese|
+|press|Login|
+|check|logged in|yes|
+|check|log in time|9:00|
+|check|log out time|17:00|
+|check|hours worked|8.0|
+

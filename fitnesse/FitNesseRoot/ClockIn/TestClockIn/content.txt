@@ -1,0 +1,30 @@
+!c !3 When a user logs into the system, they are automatically clocked in at the current time.
+
+Add some users to the system.
+!|Users|
+|username|password|
+|wallace|cheese|
+|grommit|nopenguins|
+
+!|Pseudo time|
+|enter|time|9:00|
+
+When Wallace logs in, his login time is recorded as 9am.
+!|Login Window|
+|enter|username|wallace|
+|enter|password|cheese|
+|press|Login|
+|check|logged in|yes|
+|check|log in time|9:00|
+
+!|Pseudo time|
+|enter|time|9:30|
+
+When Grommit logs in, his login time is recorded as 9:30.
+!|Login Window|
+|enter|username|grommit|
+|enter|password|nopenguins|
+|press|Login|
+|check|logged in|yes|
+|check|log in time|9:30|
+

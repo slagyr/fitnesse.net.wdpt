@@ -1,0 +1,21 @@
+!c !3 If the username entered by the user is not registered, or the password does not match the registered user's password, the login is unsuccessful.
+
+Add some users to the system.
+!|Users|
+|username|password|
+|wallace|cheese|
+|grommit|nopenguins|
+
+Someone with the usetname "billy" unsuccessfully tries to login because "billy" is not a registered username.
+!|Login Window|
+|enter|username|billy|
+|enter|password|bob|
+|press|Login|
+|check|logged in|no|
+
+Wallace uses the wrong password and can't get in.
+!|Login Window|
+|enter|username|wallace|
+|enter|password|rockets|
+|press|Login|
+|check|logged in|no|

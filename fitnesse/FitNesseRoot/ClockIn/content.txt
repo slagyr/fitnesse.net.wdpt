@@ -1,0 +1,15 @@
+!c !3 A simple program to keep track of hours.
+
+!define COMMAND_PATTERN {%m %p}
+!define TEST_RUNNER {dotnet\FitServer.exe}
+!define PATH_SEPARATOR {;}
+!path dotnet\fit.dll
+!path C:\Projects\article\ClockIn\bin\Debug\ClockIn.dll
+
+^TestLogin
+^TestInvalidLogin
+^TestClockIn
+^TestClockOut
+
+Helpers:
+^SetUp

@@ -1,0 +1,139 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:ClockIn.ClockInView">
+      <Item value="ClockedIn" priority="1" />
+      <Item value="ClockOutTime" priority="0" />
+      <Item value="ClockInTime" priority="0" />
+      <Item value="HoursWorked" priority="0" />
+      <Item value="Username" priority="0" />
+      <Item value="Clear" priority="0" />
+      <Item value="ValidLogin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ClockIn.FixtureContext.appContext">
+      <Item value="GetUser" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime.Now">
+      <Item value="AddHours" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ClockIn.TimeSource">
+      <Item value="CurrentTime" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:fit.Parse">
+      <Item value="Text" priority="0" />
+      <Item value="More" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:double">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="Split" priority="0" />
+      <Item value="Equals" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ClockIn.MockView">
+      <Item value="clockedIn" priority="1" />
+      <Item value="clockedInTime" priority="0" />
+      <Item value="clockedOutTime" priority="1" />
+      <Item value="hoursWorked" priority="1" />
+      <Item value="validLogin" priority="1" />
+      <Item value="username" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ClockIn.ClockInWindow">
+      <Item value="passwordTextBox" priority="1" />
+      <Item value="Clear" priority="0" />
+      <Item value="ValidLogin" priority="1" />
+      <Item value="clockedInAnswerLabel" priority="0" />
+      <Item value="loginMessageTextBox" priority="1" />
+      <Item value="loginButton" priority="0" />
+      <Item value="hoursWorkedAnswerLabel" priority="0" />
+      <Item value="usernameTextBox" priority="1" />
+      <Item value="currentUserLabel" priority="1" />
+      <Item value="HoursWorked" priority="0" />
+      <Item value="clockedInTimeAnswerLabel" priority="0" />
+      <Item value="Username" priority="0" />
+      <Item value="Show" priority="0" />
+      <Item value="Dispose" priority="0" />
+      <Item value="ClockedIn" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="Run" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Hour" priority="0" />
+      <Item value="Month" priority="0" />
+      <Item value="Day" priority="0" />
+      <Item value="Year" priority="0" />
+      <Item value="AddSeconds" priority="0" />
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ClockIn.User">
+      <Item value="HoursWorked" priority="1" />
+      <Item value="ClockInTime" priority="1" />
+      <Item value="IsClockedIn" priority="2" />
+      <Item value="Password" priority="0" />
+      <Item value="Username" priority="1" />
+      <Item value="ClockOutTime" priority="1" />
+      <Item value="ClockIn" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="ForeColor" priority="1" />
+      <Item value="Text" priority="8" />
+      <Item value="Focus" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ClockIn.FixtureContext.view">
+      <Item value="clockedInTime" priority="0" />
+      <Item value="clockedOutTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ClockIn.ClockInContext">
+      <Item value="Login" priority="5" />
+      <Item value="TimeSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyEventArgs">
+      <Item value="KeyCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IList">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="Minutes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="14" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ClockIn.LoginListener">
+      <Item value="LoginAttempted" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="PerformClick" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="AddUser" priority="0" />
+      <Item value="LoginListener" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFilesTracker>
+    <RecentFilesTracker>
+      <TrackedFile location="C:\Projects\article\ClockIn\PseudoTimeFixture.cs" offset="162" line="0" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\UsersFixture.cs" offset="210" line="0" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\LoginWindowFixture.cs" offset="613" line="2" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\SetupFixture.cs" offset="235" line="0" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\ClockInContext.cs" offset="679" line="0" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\ClockInWindowTest.cs" offset="0" line="6" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\ClockInView.cs" offset="0" line="0" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\MockView.cs" offset="0" line="0" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\ClockInContextTest.cs" offset="0" line="54" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\ClockInWindow.cs" offset="0" line="255" column="0" />
+      <TrackedFile location="C:\Projects\article\Main\ClockInMain.cs" offset="377" line="0" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\LoginListener.cs" offset="115" line="0" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\PseudoTimeSource.cs" offset="327" line="0" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\User.cs" offset="913" line="21" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\UserTest.cs" offset="214" line="15" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\RealTimeSource.cs" offset="151" line="0" column="0" />
+      <TrackedFile location="C:\Projects\article\ClockIn\TimeSource.cs" offset="103" line="0" column="0" />
+    </RecentFilesTracker>
+  </RecentFilesTracker>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean />
+  </SettingsComponent>
+</Configuration>

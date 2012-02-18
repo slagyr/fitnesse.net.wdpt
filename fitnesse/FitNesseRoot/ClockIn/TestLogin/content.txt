@@ -1,0 +1,21 @@
+!c !3 Login: Users of the system login by providing their username and password.
+
+Add some users to the system.
+!|Users|
+|username|password|
+|wallace|cheese|
+|grommit|nopenguins|
+
+Wallace uses the correct password and successfully logs in.
+!|Login Window|
+|enter|username|wallace|
+|enter|password|cheese|
+|press|Login|
+|check|logged in|yes|
+
+Grommit uses the correct password and successfully logs in.
+!|Login Window|
+|enter|username|grommit|
+|enter|password|nopenguins|
+|press|Login|
+|check|logged in|yes|
